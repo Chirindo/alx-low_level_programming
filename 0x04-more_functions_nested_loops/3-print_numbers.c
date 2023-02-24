@@ -3,16 +3,16 @@
 /**
  * print numbers - prints numbers 0 to 9
  *
- * return: void
+ * return: 0
  */
 
-void Print_numbers(void)
+void print_numbers(void)
 {
-	char c;
+	int i;
 
-	for (c = '0'; c <= '9'; c++)
+	for (i = 0; i < 10; i++)
 	{
-		_putchar(i = '0');
+		_putchar(i + '0');
 	}
 	_putchar('\n');
 }
