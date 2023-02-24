@@ -1,5 +1,6 @@
 Tasks
-0. Multiple mains 
-1. Like, comment, subscribe 
-2. 0 > 972? 
-3. Leap year 
+multiple mains
+like, comment, subscribe
+0 > 972
+leap year
+
