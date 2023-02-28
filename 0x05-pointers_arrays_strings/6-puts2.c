@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+#include <string.h>
 
 /**
  * puts2 - function should print only one character
@@ -24,8 +26,8 @@ void puts2(char *str)
 	{
 		if (o % 2 == 0)
 	{
-		_putchar (str[o]);
+		putchar (str[o]);
 	}
 	}
-	_putchar('\n');
+	putchar('\n');
 }
