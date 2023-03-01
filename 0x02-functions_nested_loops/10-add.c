@@ -1,7 +1,8 @@
-#include <stdio>
+#include "mainm.h"
+#include <stdio.h>
 
 /**
- * main print all pssible
+ * main - print all possible
  * Return: Always 0
  */
 
@@ -28,5 +29,3 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
-
-					
