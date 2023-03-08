@@ -1,9 +1,9 @@
 #include "main.h"
 
+
 /**
  * _put_recursion - prints a fuction like puts()
  * @s: string parameter
- * Return: always 0
  */
 void _puts_recursion(char *s)
 {
