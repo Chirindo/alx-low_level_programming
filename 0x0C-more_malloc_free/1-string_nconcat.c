@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
- * string_concat - concatenates n bytes of two strings
+ * string_nconcat - concatenates n bytes of two strings
  * @s1: string to concentes to
  * @s2: string to concentes from
  * @n: number of bytes
