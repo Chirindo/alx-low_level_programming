@@ -1,7 +1,7 @@
 #include <stdio.h>
-
+#include "main.h"
 /**
- * main - prints all possible combination
+ * times_table - prints all possible combination
  * Return: Always 0
  */
 
