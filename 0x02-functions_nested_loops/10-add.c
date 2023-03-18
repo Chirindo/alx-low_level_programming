@@ -1,31 +1,15 @@
-#include "mainm.h"
+#include "main.h"
 #include <stdio.h>
-
 /**
- * main - print all possible
- * Return: Always 0
+ * add - add two integers
+ * @a: input
+ * @b: inpu
+ * Return: sum
  */
 
-int main(void)
+int add(int a, int b)
 {
-	int n, m;
+	int sum = a + b;
 
-	for (n = 48; n <= 56; n++)
-	{
-		for (m = 49; m <= 57; m++)
-		{
-			if (m > n)
-			{
-				putchar(n);
-				putchar(m);
-				if (n != 56 || m != 57)
-				{
-					putchar(',');
-					putchar(' ');
-				}
-			}
-		}
-	}
-	putchar('\n');
-	return (0);
+	return (sum);
 }
