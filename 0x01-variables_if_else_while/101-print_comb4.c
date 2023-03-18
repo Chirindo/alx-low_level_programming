@@ -18,7 +18,7 @@ int main(void)
 				{
 					putchar(n);
 					putchar(m);
-					punchar(l);
+					putchar(l);
 					if (n != 55 || m != 56)
 					{
 						putchar(',');
@@ -31,8 +31,3 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
-				
-			
-			
-
-
