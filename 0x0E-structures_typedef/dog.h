@@ -2,7 +2,7 @@
 #define DOG_H
 
 /**
- * struck dog - defines a new types
+ * struct dog - defines a new types
  * @name: name of dog
  * @age: age od dog
  * @owner:owner of dog
