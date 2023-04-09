@@ -9,30 +9,21 @@
 
 void print_binary(unsigned long int n)
 {
-	unsigned long int num = 1;
+	int i, count = 0;
+	unsigned long int current;
 
-	num <<= (sizeof(unsigned long int) * 8 - 1);
-	int found_first_one = 0;
-
-	while (num)
+	for (i = 63; i >= 0; i--)
 	{
-		if (n & num)
+		current = n >> i;
+
+		if (current & 1)
 		{
 			_putchar('1');
-			found_first_one = 1;
+			count++;
 		}
-
-		else
-		{
-			if (found_first_one)
-			{
-				_putchar('0');
-			}
-		}
-		num >>= 1;
+		else if (count)
+			_putchar('0');
 	}
-	if (!found_first_one)
-	{
+	if (!count)
 		_putchar('0');
-	}
 }
