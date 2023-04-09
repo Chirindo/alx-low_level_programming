@@ -18,7 +18,7 @@ void print_binary(unsigned long int n)
 	{
 		if (n & num)
 		{
-			putchar('1');
+			_putchar('1');
 			found_first_one = 1;
 		}
 
@@ -26,13 +26,13 @@ void print_binary(unsigned long int n)
 		{
 			if (found_first_one)
 			{
-				putchar('0');
+				_putchar('0');
 			}
 		}
 		num >>= 1;
 	}
 	if (!found_first_one)
 	{
-		putchar('0');
+		_putchar('0');
 	}
 }
