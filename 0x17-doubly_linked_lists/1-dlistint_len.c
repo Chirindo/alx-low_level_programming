@@ -3,7 +3,7 @@
 /**
  * dlistint: count number of node
  * @h: pointer
- * Retun: number of node
+ * Return: number of node
  */
 
 size_t dlistint_len(const dlistint_t *h)
