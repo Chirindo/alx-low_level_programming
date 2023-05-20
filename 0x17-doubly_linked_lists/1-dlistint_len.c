@@ -1,16 +1,21 @@
 #include "lists.h"
+#include <stddef.h>
+#include <stdio.h>
 
 /**
- * dlistint: count number of node
+ * dlistint - count number of node
  * @h: pointer
  * Return: number of node
  */
 
 size_t dlistint_len(const dlistint_t *h)
 {
-	size t;
+	int count = 0;
 
-	for (i = 0 h != NULL; i++)
+	while (h != NULL)
+	{
 		h = h->next;
-	return(i);
+		count++;
+	}
+	return (count);
 }
