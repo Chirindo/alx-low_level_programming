@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * dlistint - count number of node
+ * dlistint_len - count number of node
  * @h: pointer
  * Return: number of node
  */
