@@ -7,7 +7,7 @@
  * add_dnodeint - adds node
  * @head: double pointer
  * @n: node
- * Return - number of nodes
+ * Return: number of nodes
  */
 
 
