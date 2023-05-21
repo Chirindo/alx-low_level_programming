@@ -7,7 +7,7 @@
  * add_dnodeint_end - adds nodes atthe end
  * @head: head
  * @n: int
- * return: list
+ * Return: list
  */
 
 
@@ -24,7 +24,7 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 	}
 
 	new_node->n = n;
-	new_node->next = NULL;
+	new_node->inext = NULL;
 
 	if (*head == NULL)
 	{
